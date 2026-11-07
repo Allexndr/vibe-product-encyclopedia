@@ -1,135 +1,166 @@
-# 📕 Настольная Энциклопедия Продукта и Вайбкодинга (978 страниц · 87 модулей)
-### Универсальный Скилл для ИИ-Агентов (Claude Code, Cursor, Codex, Antigravity)
-**Автор и главный архитектор системы:** [Александр Мурдасов (MurdaSoft)](https://murdasoft.kz) • GitHub: [@Allexndr](https://github.com/Allexndr) / `@sanmemik`
+# ⚡ Vibe Product Encyclopedia & Universal AI Skill (978 Pages · 87 Modules)
+### Autonomous Playbook for Claude Code, Cursor, Codex & Antigravity (Senior 30Y Standard)
+**Author & Chief System Architect:** [Alexander Murdasov (MurdaSoft)](https://murdasoft.kz) • GitHub: [@Allexndr](https://github.com/Allexndr) / `@sanmemik`
+
+<div align="center">
+
+### 🌐 Select Language / Выберите язык / Тілді таңдаңыз / 选择语言 / Seleccionar idioma:
+**[ 🇬🇧 English ](README.md)** • **[ 🇷🇺 Русский ](README.ru.md)** • **[ 🇰🇿 Қазақша ](README.kk.md)** • **[ 🇨🇳 简体中文 ](README.zh.md)** • **[ 🇪🇸 Español ](README.es.md)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Volume](https://img.shields.io/badge/Volume-978%20Pages%20%7C%2087%20Modules-blue.svg)](VIBE_PRODUCT_ENCYCLOPEDIA_978P.md)
-[![Interactive Hub](https://img.shields.io/badge/Live%20Platform-murdasoft.kz%2Fvibe--map-purple.svg)](https://murdasoft.kz/ru/vibe-map)
+[![Interactive Hub](https://img.shields.io/badge/Live%20Platform-murdasoft.kz%2Fvibe--map-purple.svg)](https://murdasoft.kz/en/vibe-map)
 [![Skill Standard](https://img.shields.io/badge/Skill%20Standard-Anthropic%20%26%20Codex-amber.svg)](SKILL.md)
 
----
-
-## 🧭 О проекте
-
-Большинство курсов и гайдов по вайбкодингу учат быстро генерировать «сырой ИИ-код», который разваливается при первой реальной нагрузке или проверке безопасности.
-
-**Этот репозиторий — противоположность ИИ-слопу.** Это настольная инженерно-продуктовая энциклопедия на **978 страниц (87 автономных модулей)**, объединяющая опыт создания десятков продакшн-систем и стандарты Principal-инженеров с 30-летним стажем (Clean Architecture, FSD, OWASP ASVS L3, Anti-AI-Slop дизайн, Zero-Trust безопасность, токен-экономика и оркестрация роя ИИ-агентов).
-
-> 💡 **Формат справочника O'Reilly / Гэйл Макдауэлл («Карьера продакт-менеджера»):**
-> Эту книгу **не нужно читать последовательно**. Вы можете упасть в любой модуль по оглавлению и сразу забрать **готовую ситуацию**, **лайфхак Senior 30Y**, **проверенное архитектурное решение** и **эталонный промпт**.
+</div>
 
 ---
 
-## ⚡ Быстрая установка Скилла (1 минута)
+## 🧭 About the Project
 
-Превратите этот репозиторий в активный навык для вашего ИИ-ассистента:
+Most vibe coding tutorials instruct developers to churn out raw, unverified AI code that falls apart under real production load or during security audits.
 
-### Для Claude Code
+**This repository is the antithesis of AI slop.** It is a comprehensive **978-page engineering and product encyclopedia (87 autonomous modules)** that synthesizes real-world production experience from dozens of high-load platforms with the rigorous standards of a Principal Engineer and Product Director possessing 30+ years of cumulative expertise (Clean Architecture, Feature-Sliced Design (FSD), OWASP ASVS Level 3, Anti-AI-Slop visual engineering, Zero-Trust security, unit economics, and multi-agent swarm orchestration).
+
+> 💡 **Non-Linear O'Reilly / Gayle McDowell Handbook Standard:**  
+> Like *Cracking the PM Career* by Gayle Laakmann McDowell & Jackie Bavaro, **you do not need to read this book linearly**. Jump directly to any chapter from the table of contents to immediately extract:  
+> 1. **Trigger Situation** (When to jump into this module)  
+> 2. **Senior 30Y Lifehack** (The core architectural secret in 3 lines)  
+> 3. **Production Solution** (Ready-to-use architecture recipe, code, or configuration)  
+> 4. **Master Prompt & Agent Skills** (Copy-and-run instructions for Claude Code / Codex / Cursor)  
+> 5. **Product Blind Spots** (Proactive diagnostic questions to ask before writing code)
+
+---
+
+## ⚡ 1-Minute Skill Installation
+
+Turn this repository into an active reflex for your AI coding assistant:
+
+### For Claude Code
 ```bash
 mkdir -p ~/.claude/skills/vibe-product-encyclopedia
 curl -fsSL https://raw.githubusercontent.com/Allexndr/vibe-product-encyclopedia/main/SKILL.md -o ~/.claude/skills/vibe-product-encyclopedia/SKILL.md
 ```
 
-### Для Cursor / Windsurf
-Скопируйте содержимое [`SKILL.md`](SKILL.md) в файл `.cursorrules` или `.windsurfrules` в корне вашего проекта.
+### For Cursor / Windsurf
+Copy the contents of [`SKILL.md`](SKILL.md) into `.cursorrules` or `.windsurfrules` at the root of your workspace.
 
-### Для Codex CLI / Antigravity
+### For Codex CLI / Antigravity
 ```bash
 mkdir -p ~/.agents/skills/vibe-product-encyclopedia
 curl -fsSL https://raw.githubusercontent.com/Allexndr/vibe-product-encyclopedia/main/SKILL.md -o ~/.agents/skills/vibe-product-encyclopedia/SKILL.md
 ```
 
+### Direct Localized Skills:
+* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) — Default
+* 🇷🇺 [Russian Skill (`SKILL.ru.md`)](SKILL.ru.md)
+* 🇰🇿 [Kazakh Skill (`SKILL.kk.md`)](SKILL.kk.md)
+* 🇨🇳 [Chinese Skill (`SKILL.zh.md`)](SKILL.zh.md)
+* 🇪🇸 [Spanish Skill (`SKILL.es.md`)](SKILL.es.md)
+
 ---
 
-## 🔄 3-Шаговый Reverse Prompting (Обратный промптинг)
+## 🔄 3-Step Reverse Prompting Framework
 
-Вместо того чтобы вручную расписывать каждый шаг нейросети и упускать граничные случаи, используйте стандарт **Reverse Prompting**:
+Instead of manually drafting micro-instructions for every step and overlooking edge cases, enforce the **Reverse Prompting** protocol:
 
 ```mermaid
 flowchart TD
-    A["Шаг 1: Контекст и цели"] -->|"ИИ ищет 10 точек рычага"| B["Шаг 2: Интервью слепых зон"]
-    B -->|"ИИ задает 5 острых вопросов"| C["Шаг 3: Хирургический план"]
-    C -->|"Код без заглушек + Гейты"| D["Бонус: Упаковка чата в SKILL.md"]
+    A["Step 1: Context & Vision Dump"] -->|"AI identifies 10 leverage points"| B["Step 2: Blind Spot Diagnostic Interview"]
+    B -->|"AI asks 5-7 sharp architectural questions"| C["Step 3: Surgical High-ROI Execution Plan"]
+    C -->|"Clean code + Zero-Trust Hard Gates"| D["Bonus: Package Session into permanent SKILL.md"]
 ```
 
-1. **Шаг 1 — Поиск точек рычага:** Вы передаёте свой контекст и требуете от ИИ предложить 10 неочевидных способов ускорения архитектуры, безопасности и UX.
-2. **Шаг 2 — Интервью по слепым зонам:** ИИ выступает как Principal-архитектор и задаёт вам 5–7 диагностических вопросов по тем вещам, о которых вы забыли подумать (транзакции, SSRF, гонки данных, мобильный UX).
-3. **Шаг 3 — Хирургический план с максимальным ROI:** ИИ выдаёт конкретный план из 3 шагов с кодом, командами проверки и критериями готовности.
-4. **Бонус — Упаковка чата в `SKILL.md`:** По завершении успешной сессии ИИ за 1 промпт превращает пройденный путь в постоянный скилл.
+1. **Step 1 — Leverage Discovery:** Provide raw project context and objectives. Demand that the AI uncover 10 high-leverage opportunities across architecture, security, and conversion without prematurely writing code.
+2. **Step 2 — Blind Spot Diagnostic Interview:** The AI acts as a Principal Architect and interviews you with 5–7 sharp questions targeting unnoticed vulnerabilities (race conditions, SSRF metadata risks, transaction isolation, mobile touch targets).
+3. **Step 3 — Surgical 3-Step Execution Plan:** The AI delivers a concrete 3-step blueprint with code, verification commands, and pass/fail criteria.
+4. **Bonus — Auto-Skill Extraction:** At the conclusion of a successful session, convert the proven workflow into a persistent `SKILL.md` in one prompt.
 
 ---
 
-## 📚 Структура Энциклопедии (3 Части · 87 Глав)
+## 📚 Encyclopedia Architecture (3 Parts · 87 Modules)
 
-### Часть I. Вайбкодинг, Reverse Prompting и Справочник Скиллов
-- **Глава I-1.** Как устроена эта Книга-Энциклопедия и как превратить её в Универсальный Скилл
-- **Глава I-2.** Reverse Prompting (3 шага) и Решения 6 главных узких мест продакшна
-- **Глава I-3.** Золотой фонд инструментов: 101 GitHub-репозиторий и 123 инженерных лайфхака
-- **Глава I-4.** Полный Атлас 951 Скилла для ИИ-Агентов (Claude, Codex, Antigravity)
-- **Глава I-5.** Универсальный гайдбук по архитектуре, дизайн-токенам, безопасности и оптимизации
-- **Глава I-6.** Четыре канона: FSD-Архитектура, Ритм конверсионного лендинга и Mobile-First Адаптив
-- **Глава I-7.** Справочник DevSecOps (OWASP ASVS L3) и High-Load Оптимизации БД
-- **Глава I-8.** Формула идеального промпта G-C-C-D-O-R, Автоматизации и MCP-серверы
+### Part I. Vibe Coding, Reverse Prompting & Agent Skills Atlas (8 Chapters)
+* **Chapter I-1.** How this Encyclopedia is Structured & How to Turn it into a Universal Skill
+* **Chapter I-2.** 3-Step Reverse Prompting & Solutions to 6 Critical Production Bottlenecks
+* **Chapter I-3.** The Gold Repository: 101 Curated GitHub Repositories & 123 Senior Engineering Lifehacks
+* **Chapter I-4.** Full Atlas of 951 AI Agent Skills (Claude Code, Codex, Antigravity)
+* **Chapter I-5.** Universal Architectural Guidebook: Design Tokens, AppSec & Database Tuning
+* **Chapter I-6.** The 4 Canons: Feature-Sliced Design (FSD), Conversion Rhythms & Mobile-First Touch Targets
+* **Chapter I-7.** DevSecOps Handbook: OWASP ASVS Level 3, Docker Security & High-Load Indexing
+* **Chapter I-8.** The G-C-C-D-O-R Prompt Formula, Workflow Automation & Model Context Protocol (MCP)
 
-### Часть II. Энциклопедия Создания и Запуска Продукта (51 глава)
-- Продуктовое мышление, Discovery, валидация гипотез, Job-to-be-Done (JTBD).
-- Бизнес-модели, расчет юнит-экономики, ценообразование.
-- Инженерный фундамент: принципы масштабируемости, надёжности и проектирования API.
-- Выбор стека, бэкенд, современные хранилища данных (SQL vs NoSQL), фронтенд и мобайл.
-- CI/CD, релизы, инфра, облачные платформы, Observability, SRE и SLO.
-- Машинное обучение в продукте, интеграция LLM-агентов.
-- Тестирование качества, безопасность продукта (AppSec), Privacy, комплаенс и защита данных.
-- UX-исследования, дизайн-системы, доступность (a11y), дизайн для роста.
-- Продуктовый менеджмент, маркетинг, GTM-стратегия, платежи и биллинг.
+### Part II. End-to-End Product Engineering & Launch (51 Chapters)
+* Product mindset, Discovery sprints, Hypothesis testing, Jobs-to-be-Done (JTBD).
+* Business models, unit economics modeling, dynamic pricing architectures.
+* Engineering foundation: horizontal scalability, fault tolerance, API contract design.
+* Stack selection, backend patterns, modern persistence (SQL vs NoSQL), frontend & mobile cross-platform.
+* CI/CD pipelines, release gates, zero-downtime deployment, Observability, SRE & SLOs.
+* Embedded ML & LLM agent orchestration inside production software.
+* Quality assurance, application security (AppSec), GDPR / HIPAA / ISO 27001 compliance.
+* UX research, scalable design systems, accessibility (a11y), conversion optimization (CRO).
+* Product management, Go-To-Market (GTM), Stripe/Kaspi billing, idempotent webhooks.
 
-### Часть III. Оркестрация ИИ-Команды из 100 Специалистов (28 глав)
-- Как ИИ-агент читает техническую литературу и удерживает внутреннюю модель продукта.
-- 8 этапов жизненного цикла с автоматическими гейтами качества (Quality Gates).
-- Контекст-инжиниринг: правило 50% контекста и передача состояния через `HANDOFF.md`.
-- Инструменты, окружение и безопасная автономия (Blast Radius, защита от prompt injection).
-- Производство артефактов (PRD, RFC, ADR, Threat Model, Runbooks).
-- Самоконтроль агента, протокол внутреннего критика и борьба с регрессиями.
-
----
-
-## 🛠️ Главные узкие места продакшна и их готовые решения
-
-1. **Ловушка Docker + UFW:**
-   Docker пишет напрямую в `iptables`, обходя правила UFW. Базы данных на `0.0.0.0:5432` открыты всему миру.
-   *Решение:* Строгий биндинг `127.0.0.1:5432:5432` в `docker-compose.yml` и доступ только через SSH-туннель или Tailscale.
-
-2. **Защита API от SSRF, IDOR и Mass Assignment:**
-   *Решение:* Жёсткий хардкод ролей на сервере (DTO allowlist), валидатор `validateSafeUrl` с блокировкой `169.254.169.254` и проверка владельца `where: { id, ownerId: session.user.id }` в каждом запросе.
-
-3. **Правило 50% контекста:**
-   При заполнении окна трансформера >50% начинается деградация внимания и кратный рост расхода токенов.
-   *Решение:* Автоматическая выгрузка в `HANDOFF.md` и переключение в чистую сессию.
-
-4. **Борьба с «фиолетовым AI-Slop» в дизайне:**
-   *Решение:* Использование 62 детерминированных правил линтера **Impeccable** (`npx impeccable detect`) + фиксация дизайн-токенов в `UX_OPEN_REFERENCE_LOCK.md`.
-
-5. **Идемпотентность платёжных вебхуков:**
-   *Решение:* Уникальный индекс `UNIQUE(external_payment_id)` в БД, проверка подписи через `crypto.timingSafeEqual` и транзакция с блокировкой строки.
+### Part III. Orchestrating a 100-Agent Autonomous AI Engineering Team (28 Chapters)
+* How autonomous agents ingest technical literature and maintain an internal product state.
+* 8 lifecycle phases with automated Quality Gates.
+* Context engineering: the 50% context limit rule and cross-session state transfer via `HANDOFF.md`.
+* Sandboxed execution, tool boundaries, blast radius containment, prompt injection defense.
+* Automated artifact generation (PRDs, RFCs, ADRs, Threat Models, Runbooks).
+* Agent self-critique, regression detection, and adversarial verification.
 
 ---
 
-## 🌐 Интерактивная веб-платформа
+## 🛠️ 5 Critical Production Bottlenecks & Battle-Tested Solutions
 
-Опробуйте интерактивную визуальную Mind-Map, онлайн-ридер всех 87 глав и живой диалог с ИИ-Архивариусом (GPT-4o) на официальном портале:
-👉 **[murdasoft.kz/ru/vibe-map](https://murdasoft.kz/ru/vibe-map)**
+1. **Docker + UFW Port Exposure Trap:**  
+   Docker manipulates `iptables` directly, bypassing standard UFW firewall rules. Databases published as `0.0.0.0:5432` are exposed to the entire internet.  
+   *Solution:* Always bind database ports strictly to `127.0.0.1:5432:5432` in `docker-compose.yml`, restricting external access to encrypted SSH tunnels or Tailscale mesh.
+
+2. **API Protection from SSRF, IDOR & Mass Assignment:**  
+   *Solution:* Hardcode role mutations on the server via strict DTO allowlists; validate all remote URLs through a DNS-resolving `validateSafeUrl` utility blocking `169.254.169.254` and private subnets; enforce `where: { id, ownerId: session.user.id }` in every database query.
+
+3. **The 50% Context Ceiling Rule:**  
+   When an LLM context window exceeds 50% capacity, attention degrades exponentially while token latency doubles.  
+   *Solution:* Automatically serialize active task state into `HANDOFF.md` at 45% capacity and restart in a fresh session.
+
+4. **Eliminating "Purple SaaS AI-Slop" in Visual Design:**  
+   *Solution:* Enforce 62 deterministic rules via **Impeccable** (`npx impeccable detect`); establish strict design tokens locked in `UX_OPEN_REFERENCE_LOCK.md` with high-contrast neutral backgrounds (`#0B101C`), purposeful typography, and responsive touch zones (`>= 44×44px`).
+
+5. **Payment Webhook Idempotency & Replay Protection:**  
+   *Solution:* Database-enforced `UNIQUE(external_payment_id)` constraint, constant-time signature verification via `crypto.timingSafeEqual`, and row-locking transactions (`SELECT ... FOR UPDATE`).
 
 ---
 
-## 👤 Автор и контакты
+## 🌐 Interactive Web Hub & Live AI Archivist
 
-**Александр Мурдасов**
-- Основатель MurdaSoft: [murdasoft.kz](https://murdasoft.kz)
-- GitHub: [@Allexndr](https://github.com/Allexndr)
-- Telegram: [@alxndr_murdasov](https://t.me/alxndr_murdasov)
-- Email: sanmemik2000@gmail.com / alexander@murdasoft.kz
+Explore the interactive visual Mind-Map, browse all 87 chapters online, and query the GPT-4o powered AI Archivist directly on the live platform:  
+👉 **[murdasoft.kz/en/vibe-map](https://murdasoft.kz/en/vibe-map)**
 
 ---
 
-## 📄 Лицензия
+## 🌍 Language Editions / Языковые версии
 
-Распространяется под свободной лицензией [MIT](LICENSE). Разрешено коммерческое и некоммерческое использование при сохранении авторства.
+| Language | Readme | Skill | Status |
+| :--- | :--- | :--- | :--- |
+| 🇬🇧 **English** (Default) | [README.md](README.md) | [SKILL.md](SKILL.md) | ✅ Complete |
+| 🇷🇺 **Русский** | [README.ru.md](README.ru.md) | [SKILL.ru.md](SKILL.ru.md) | ✅ Complete |
+| 🇰🇿 **Қазақша** | [README.kk.md](README.kk.md) | [SKILL.kk.md](SKILL.kk.md) | ✅ Complete |
+| 🇨🇳 **简体中文** | [README.zh.md](README.zh.md) | [SKILL.zh.md](SKILL.zh.md) | ✅ Complete |
+| 🇪🇸 **Español** | [README.es.md](README.es.md) | [SKILL.es.md](SKILL.es.md) | ✅ Complete |
+
+---
+
+## 👤 Author & System Architect
+
+**Alexander Murdasov**
+* Founder, MurdaSoft: [murdasoft.kz](https://murdasoft.kz)
+* GitHub: [@Allexndr](https://github.com/Allexndr) (`@sanmemik`)
+* Telegram: [@alxndr_murdasov](https://t.me/alxndr_murdasov)
+* Email: alexander@murdasoft.kz / sanmemik2000@gmail.com
+
+---
+
+## 📄 License
+
+Distributed under the open [MIT License](LICENSE). Free for commercial and non-commercial use with author attribution preserved.
