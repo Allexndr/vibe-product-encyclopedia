@@ -83,7 +83,7 @@ flowchart TD
 ### Part I. Vibe Coding, Reverse Prompting & Agent Skills Atlas (8 Chapters)
 * **Chapter I-1.** How this Encyclopedia is Structured & How to Turn it into a Universal Skill
 * **Chapter I-2.** 3-Step Reverse Prompting & Solutions to 6 Critical Production Bottlenecks
-* **Chapter I-3.** The Gold Repository: 101 Curated GitHub Repositories & 123 Senior Engineering Lifehacks
+* **Chapter I-3.** [The Gold Repository & Autumn 2026 Toolkit (`TOOLKIT_2026.md`)](TOOLKIT_2026.md): Shannon AI Pentester, Impeccable, Lightpanda, `claude-seo`, 50% Context Hook & 120+ GitHub Repos
 * **Chapter I-4.** Full Atlas of 951 AI Agent Skills (Claude Code, Codex, Antigravity)
 * **Chapter I-5.** Universal Architectural Guidebook: Design Tokens, AppSec & Database Tuning
 * **Chapter I-6.** The 4 Canons: Feature-Sliced Design (FSD), Conversion Rhythms & Mobile-First Touch Targets
