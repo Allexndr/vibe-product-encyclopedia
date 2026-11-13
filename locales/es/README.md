@@ -52,7 +52,7 @@ curl -fsSL https://raw.githubusercontent.com/Allexndr/vibe-product-encyclopedia/
 ```
 
 ### Enlaces directos a las habilidades localizadas:
-* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) — Versión base predeterminada
+* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) - Versión base predeterminada
 * 🇷🇺 [Habilidad en Ruso (`SKILL.ru.md`)](SKILL.ru.md)
 * 🇰🇿 [Habilidad en Kazajo (`SKILL.kk.md`)](SKILL.kk.md)
 * 🇨🇳 [Habilidad en Chino (`SKILL.zh.md`)](SKILL.zh.md)
@@ -71,10 +71,10 @@ flowchart TD
     C -->|"Código sin marcadores de posición + Puertas de calidad"| D["Bono: Empaquetar sesión en un SKILL.md permanente"]
 ```
 
-1. **Paso 1 — Búsqueda de apalancamiento:** Transmite el contexto integral de tu proyecto y objetivos. Exige a la IA 10 vías no obvias para acelerar la arquitectura, la seguridad y la conversión sin escribir código apresuradamente.
-2. **Paso 2 — Entrevista diagnóstica de puntos ciegos:** La IA actúa como un Arquitecto Principal y te formula de 5 a 7 preguntas incisivas sobre aspectos que pasaste por alto (aislamiento de transacciones, riesgos de metadatos SSRF, condiciones de carrera, áreas táctiles móviles).
-3. **Paso 3 — Plan quirúrgico de 3 pasos:** La IA entrega un plan concreto de 3 pasos con código definitivo, comandos de verificación y criterios de aceptación.
-4. **Bono — Empaquetado en `SKILL.md`:** Al culminar con éxito la sesión, transforma el camino recorrido en una habilidad permanente mediante un solo prompt.
+1. **Paso 1 - Búsqueda de apalancamiento:** Transmite el contexto integral de tu proyecto y objetivos. Exige a la IA 10 vías no obvias para acelerar la arquitectura, la seguridad y la conversión sin escribir código apresuradamente.
+2. **Paso 2 - Entrevista diagnóstica de puntos ciegos:** La IA actúa como un Arquitecto Principal y te formula de 5 a 7 preguntas incisivas sobre aspectos que pasaste por alto (aislamiento de transacciones, riesgos de metadatos SSRF, condiciones de carrera, áreas táctiles móviles).
+3. **Paso 3 - Plan quirúrgico de 3 pasos:** La IA entrega un plan concreto de 3 pasos con código definitivo, comandos de verificación y criterios de aceptación.
+4. **Bono - Empaquetado en `SKILL.md`:** Al culminar con éxito la sesión, transforma el camino recorrido en una habilidad permanente mediante un solo prompt.
 
 ---
 

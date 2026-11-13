@@ -1,4 +1,4 @@
-# systemPatterns.md — Architectural Contracts & Patterns
+# systemPatterns.md - Architectural Contracts & Patterns
 
 ## Stack & Boundaries
 - Frontend: Next.js / React + TypeScript + Tailwind + shadcn/ui (FSD v2.1 layers)

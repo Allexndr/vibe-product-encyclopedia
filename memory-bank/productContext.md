@@ -1,4 +1,4 @@
-# productContext.md — Product & Business Invariants
+# productContext.md - Product & Business Invariants
 
 ## Problem Statement
 - Who is the user and what painful job-to-be-done (JTBD) does this solve?

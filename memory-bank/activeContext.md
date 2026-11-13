@@ -1,10 +1,10 @@
-# activeContext.md — Current Session State
+# activeContext.md - Current Session State
 
 ## Current Focus
 - [Describe the active feature, bugfix, or milestone]
 
 ## Recent Decisions
-- [Date] — [Architectural or product decision and why]
+- [Date] - [Architectural or product decision and why]
 
 ## Next Steps
 1. [Immediate next verified step]

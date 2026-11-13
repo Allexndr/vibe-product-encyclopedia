@@ -8,7 +8,7 @@ Curated, battle-tested open-source tools, agent configurations, and security che
 
 ## 1. 🛡️ AppSec: Shannon AI Pentester & 12-Step Hardening Prompt
 
-- **Shannon (`+48K⭐` Open Source AI Pentester):** Instead of "deploy and pray", give Shannon your app—it attacks like a real hacker, executes real exploits (*no exploit = no report*), and outputs PDF + SARIF reports.
+- **Shannon (`+48K⭐` Open Source AI Pentester):** Instead of "deploy and pray", give Shannon your app-it attacks like a real hacker, executes real exploits (*no exploit = no report*), and outputs PDF + SARIF reports.
 - **`cloudflare/security-audit-skill`:** Official Cloudflare security audit skill (`github.com/cloudflare/security-audit-skill`).
 
 ### 12-Step Website Security Hardening Prompt (Copy & Run in Claude/Codex)
@@ -35,10 +35,10 @@ Perform a full security audit of my website and implement all 12 defense layers:
 - **Impeccable (`npx impeccable detect <url>`):** 62 deterministic rules (zero AI keys required) catching generic AI-slop tells (low contrast, card-in-card nesting, purple SaaS clichés) before client handoff. Agent commands: `critique`, `polish`, `bolder`.
 - **Claude + Codex Image Synergy:** Claude Code cannot natively generate raster mockups, while Codex on the entry tier can. Wrap Codex CLI as a local Skill inside Claude Code so Claude delegates UI concept & asset generation automatically.
 - **Curated AI Design References:**
-  - `studio.motionsites.ai` — fast motion sites (cheaper than Lovable)
-  - `motionsites.ai` — 800+ prompts for 3D, animations, and dynamic sections
-  - `land-book.com`, `recent.design`, `landdding.com` — landing page inspiration
-  - `devault-ascii.pages.dev/ascii-generator/app/` — ASCII art generator for CLI & READMEs
+  - `studio.motionsites.ai` - fast motion sites (cheaper than Lovable)
+  - `motionsites.ai` - 800+ prompts for 3D, animations, and dynamic sections
+  - `land-book.com`, `recent.design`, `landdding.com` - landing page inspiration
+  - `devault-ascii.pages.dev/ascii-generator/app/` - ASCII art generator for CLI & READMEs
 
 ---
 
@@ -65,7 +65,7 @@ Add to `~/.claude/settings.json`:
 ## 4. 🤖 Agentic Web, GEO/AEO & Memory
 
 - **`claude-seo` (`github.com/AgriciDaniel/claude-seo`):** SEO for AI bots (ChatGPT, Perplexity, AI Overviews): `/llms.txt`, `Content-Signal` in `robots.txt` (*allow indexing, disallow training*), and `citability` audits.
-- **Lightpanda Browser (`github.com/lightpanda-io/browser`):** Headless browser built from scratch for AI agents — **16x lighter and 9x faster than Chromium**.
+- **Lightpanda Browser (`github.com/lightpanda-io/browser`):** Headless browser built from scratch for AI agents - **16x lighter and 9x faster than Chromium**.
 - **Mika (`github.com/wangzan101/Mika`):** Autonomous Android UI agent operating any app/site without APIs on a hidden background screen.
 - **Memorilla (`github.com/snap-stanford/memorilla`):** Stanford agent long-term memory architecture.
 - **`ALNIuser/agency-agents` & `lemomo-ai/lemo-opuscar`:** Multi-agent orchestration frameworks.

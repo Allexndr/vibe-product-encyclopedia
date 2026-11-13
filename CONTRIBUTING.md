@@ -14,6 +14,6 @@ Thank you for helping grow this living engineering & vibe-coding vault!
 
 ## Guidelines
 
-- No filler theory — only actionable, production-verified patterns.
+- No filler theory - only actionable, production-verified patterns.
 - Never include private keys, internal client names, or unverified claims.
 - If your contribution helps others, drop a ⭐ Star so more builders discover the repo!

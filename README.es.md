@@ -1,4 +1,4 @@
-# ⚡ Enciclopedia de Producto y Vibe Coding (978 Páginas · 87 Módulos)
+# ⚡ Enciclopedia de Producto y Vibe Coding (997 Páginas · 89 Módulos)
 ### Habilidad Universal de IA para Claude Code, Cursor, Codex y Antigravity (Estándar Senior 30Y)
 **Autor y Arquitecto Principal del Sistema:** [Alexander Murdasov (MurdaSoft)](https://murdasoft.kz/es) • GitHub: [@Allexndr](https://github.com/Allexndr) / `@sanmemik`
 
@@ -8,8 +8,8 @@
 **[ 🇬🇧 English ](README.md)** • **[ 🇷🇺 Русский ](README.ru.md)** • **[ 🇰🇿 Қазақша ](README.kk.md)** • **[ 🇨🇳 简体中文 ](README.zh.md)** • **[ 🇪🇸 Español ](README.es.md)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
-[![Volume](https://img.shields.io/badge/Volume-978%20Pages%20%7C%2087%20Modules-blue.svg)](VIBE_PRODUCT_ENCYCLOPEDIA_978P.md)
-[![Interactive Hub](https://img.shields.io/badge/Live%20Platform-murdasoft.kz%2Fes%2Fvibe--map-purple.svg)](https://murdasoft.kz/es/vibe-map)
+[![Volume](https://img.shields.io/badge/Volume-997%20Pages%20%7C%2089%20Modules-blue.svg)](VIBE_PRODUCT_ENCYCLOPEDIA_978P.md)
+[![Interactive Hub](https://img.shields.io/badge/Live%20Platform-vibemap.murdasoft.kz-purple.svg)](https://vibemap.murdasoft.kz)
 [![Skill Standard](https://img.shields.io/badge/Skill%20Standard-Anthropic%20%26%20Codex-amber.svg)](SKILL.es.md)
 
 </div>
@@ -20,7 +20,7 @@
 
 La gran mayoría de los cursos de "vibe coding" enseñan a generar a toda prisa código de IA deficiente y sin verificar, el cual colapsa ante la primera carga real de producción o auditoría de seguridad.
 
-**Este repositorio es la antítesis del código basura de IA (AI-Slop).** Es una enciclopedia exhaustiva de ingeniería y producto de **978 páginas (87 módulos autónomos)** que sintetiza la experiencia directa de decenas de plataformas de alta carga con los estándares de un Ingeniero Principal y Director de Producto con más de 30 años de experiencia acumulada (Clean Architecture, Feature-Sliced Design [FSD], OWASP ASVS Nivel 3, diseño Anti-AI-Slop, seguridad Zero-Trust, economía unitaria y orquestación de enjambres de agentes autónomos).
+**Este repositorio es la antítesis del código basura de IA (AI-Slop).** Es una enciclopedia exhaustiva de ingeniería y producto de **997 páginas (89 módulos autónomos)** con registro de API key en **1 clic vía Telegram (`@MurdaSoft_bot`)** y modo editorial limpio en `vibemap.murdasoft.kz`, que sintetiza la experiencia directa de decenas de plataformas de alta carga con los estándares de un Ingeniero Principal y Director de Producto con más de 30 años de experiencia acumulada (Clean Architecture, Feature-Sliced Design [FSD], OWASP ASVS Nivel 3, diseño Anti-AI-Slop, seguridad Zero-Trust, economía unitaria y orquestación de enjambres de agentes autónomos).
 
 > 💡 **Estándar de Manual no Lineal O'Reilly / Gayle McDowell (inspirado en *Cracking the PM Career*):**  
 > Este libro **no necesita leerse de principio a fin**. Puedes saltar a cualquier capítulo del índice para extraer al instante:  
@@ -52,7 +52,7 @@ curl -fsSL https://raw.githubusercontent.com/Allexndr/vibe-product-encyclopedia/
 ```
 
 ### Enlaces directos a las habilidades localizadas:
-* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) — Versión base predeterminada
+* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) - Versión base predeterminada
 * 🇷🇺 [Habilidad en Ruso (`SKILL.ru.md`)](SKILL.ru.md)
 * 🇰🇿 [Habilidad en Kazajo (`SKILL.kk.md`)](SKILL.kk.md)
 * 🇨🇳 [Habilidad en Chino (`SKILL.zh.md`)](SKILL.zh.md)
@@ -71,10 +71,10 @@ flowchart TD
     C -->|"Código sin marcadores de posición + Puertas de calidad"| D["Bono: Empaquetar sesión en un SKILL.md permanente"]
 ```
 
-1. **Paso 1 — Búsqueda de apalancamiento:** Transmite el contexto integral de tu proyecto y objetivos. Exige a la IA 10 vías no obvias para acelerar la arquitectura, la seguridad y la conversión sin escribir código apresuradamente.
-2. **Paso 2 — Entrevista diagnóstica de puntos ciegos:** La IA actúa como un Arquitecto Principal y te formula de 5 a 7 preguntas incisivas sobre aspectos que pasaste por alto (aislamiento de transacciones, riesgos de metadatos SSRF, condiciones de carrera, áreas táctiles móviles).
-3. **Paso 3 — Plan quirúrgico de 3 pasos:** La IA entrega un plan concreto de 3 pasos con código definitivo, comandos de verificación y criterios de aceptación.
-4. **Bono — Empaquetado en `SKILL.md`:** Al culminar con éxito la sesión, transforma el camino recorrido en una habilidad permanente mediante un solo prompt.
+1. **Paso 1 - Búsqueda de apalancamiento:** Transmite el contexto integral de tu proyecto y objetivos. Exige a la IA 10 vías no obvias para acelerar la arquitectura, la seguridad y la conversión sin escribir código apresuradamente.
+2. **Paso 2 - Entrevista diagnóstica de puntos ciegos:** La IA actúa como un Arquitecto Principal y te formula de 5 a 7 preguntas incisivas sobre aspectos que pasaste por alto (aislamiento de transacciones, riesgos de metadatos SSRF, condiciones de carrera, áreas táctiles móviles).
+3. **Paso 3 - Plan quirúrgico de 3 pasos:** La IA entrega un plan concreto de 3 pasos con código definitivo, comandos de verificación y criterios de aceptación.
+4. **Bono - Empaquetado en `SKILL.md`:** Al culminar con éxito la sesión, transforma el camino recorrido en una habilidad permanente mediante un solo prompt.
 
 ---
 

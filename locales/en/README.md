@@ -52,7 +52,7 @@ curl -fsSL https://raw.githubusercontent.com/Allexndr/vibe-product-encyclopedia/
 ```
 
 ### Direct Localized Skills:
-* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) — Default
+* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) - Default
 * 🇷🇺 [Russian Skill (`SKILL.ru.md`)](SKILL.ru.md)
 * 🇰🇿 [Kazakh Skill (`SKILL.kk.md`)](SKILL.kk.md)
 * 🇨🇳 [Chinese Skill (`SKILL.zh.md`)](SKILL.zh.md)
@@ -71,10 +71,10 @@ flowchart TD
     C -->|"Clean code + Zero-Trust Hard Gates"| D["Bonus: Package Session into permanent SKILL.md"]
 ```
 
-1. **Step 1 — Leverage Discovery:** Provide raw project context and objectives. Demand that the AI uncover 10 high-leverage opportunities across architecture, security, and conversion without prematurely writing code.
-2. **Step 2 — Blind Spot Diagnostic Interview:** The AI acts as a Principal Architect and interviews you with 5–7 sharp questions targeting unnoticed vulnerabilities (race conditions, SSRF metadata risks, transaction isolation, mobile touch targets).
-3. **Step 3 — Surgical 3-Step Execution Plan:** The AI delivers a concrete 3-step blueprint with code, verification commands, and pass/fail criteria.
-4. **Bonus — Auto-Skill Extraction:** At the conclusion of a successful session, convert the proven workflow into a persistent `SKILL.md` in one prompt.
+1. **Step 1 - Leverage Discovery:** Provide raw project context and objectives. Demand that the AI uncover 10 high-leverage opportunities across architecture, security, and conversion without prematurely writing code.
+2. **Step 2 - Blind Spot Diagnostic Interview:** The AI acts as a Principal Architect and interviews you with 5–7 sharp questions targeting unnoticed vulnerabilities (race conditions, SSRF metadata risks, transaction isolation, mobile touch targets).
+3. **Step 3 - Surgical 3-Step Execution Plan:** The AI delivers a concrete 3-step blueprint with code, verification commands, and pass/fail criteria.
+4. **Bonus - Auto-Skill Extraction:** At the conclusion of a successful session, convert the proven workflow into a persistent `SKILL.md` in one prompt.
 
 ---
 

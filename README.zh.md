@@ -1,4 +1,4 @@
-# ⚡ 全栈产品与氛围编程工程百科 (978页 · 87个独立模块)
+# ⚡ 全栈产品与氛围编程工程百科 (997页 · 89个独立模块)
 ### 针对 Claude Code、Cursor、Codex 与 Antigravity 的通用 AI Agent 技能 (Senior 30Y 工业标准)
 **作者与系统总架构师:** [Alexander Murdasov (MurdaSoft)](https://murdasoft.kz/zh) • GitHub: [@Allexndr](https://github.com/Allexndr) / `@sanmemik`
 
@@ -8,8 +8,8 @@
 **[ 🇬🇧 English ](README.md)** • **[ 🇷🇺 Русский ](README.ru.md)** • **[ 🇰🇿 Қазақша ](README.kk.md)** • **[ 🇨🇳 简体中文 ](README.zh.md)** • **[ 🇪🇸 Español ](README.es.md)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
-[![Volume](https://img.shields.io/badge/Volume-978%20Pages%20%7C%2087%20Modules-blue.svg)](VIBE_PRODUCT_ENCYCLOPEDIA_978P.md)
-[![Interactive Hub](https://img.shields.io/badge/Live%20Platform-murdasoft.kz%2Fzh%2Fvibe--map-purple.svg)](https://murdasoft.kz/zh/vibe-map)
+[![Volume](https://img.shields.io/badge/Volume-997%20Pages%20%7C%2089%20Modules-blue.svg)](VIBE_PRODUCT_ENCYCLOPEDIA_978P.md)
+[![Interactive Hub](https://img.shields.io/badge/Live%20Platform-vibemap.murdasoft.kz-purple.svg)](https://vibemap.murdasoft.kz)
 [![Skill Standard](https://img.shields.io/badge/Skill%20Standard-Anthropic%20%26%20Codex-amber.svg)](SKILL.zh.md)
 
 </div>
@@ -20,7 +20,7 @@
 
 当前大多数所谓“氛围编程”（Vibe Coding）教程只教用户快速生成未经考验的“粗糙 AI 代码”。这种代码一旦遭遇真实生产流量或安全审计，就会迅速崩溃。
 
-**本知识库是劣质 AI 垃圾代码（AI Slop）的终极解药。** 这是一部厚达 **978 页、涵盖 87 个完全独立模块** 的工程与产品实战百科全书。它汇聚了数十个大型高并发生产系统的实操沉淀，并严格对齐拥有 30 余年经验的资深主任工程师（Principal Engineer）与产品总监的技术标准（清晰架构、Feature-Sliced Design、OWASP ASVS Level 3 安全标准、反 AI 劣质设计规范、零信任安全防线、单体经济模型测算以及百人级 AI Agent 蜂群协同架构）。
+**本知识库是劣质 AI 垃圾代码（AI Slop）的终极解药。** 这是一部厚达 **997 页、涵盖 89 个完全独立模块** 的工程与产品实战百科全书（支持 Live Knowledge API 与通过 **@MurdaSoft_bot** 一键 Telegram 获取 API Key）。它汇聚了数十个大型高并发生产系统的实操沉淀，并严格对齐拥有 30 余年经验的资深主任工程师（Principal Engineer）与产品总监的技术标准（清晰架构、Feature-Sliced Design、OWASP ASVS Level 3 安全标准、反 AI 劣质设计规范、零信任安全防线、单体经济模型测算以及百人级 AI Agent 蜂群协同架构）。
 
 > 💡 **O'Reilly / Gayle McDowell 非线性案头手册标准（参考《金牌产品经理通关秘籍》）：**  
 > 这本书 **完全不需要从头到尾线性通读**。你可以根据目录随时翻到任何一个章节，立即获取：  
@@ -52,7 +52,7 @@ curl -fsSL https://raw.githubusercontent.com/Allexndr/vibe-product-encyclopedia/
 ```
 
 ### 多语言技能文件直接链接：
-* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) — 默认主版本
+* 🇬🇧 [English Skill (`SKILL.md`)](SKILL.md) - 默认主版本
 * 🇷🇺 [俄语版技能 (`SKILL.ru.md`)](SKILL.ru.md)
 * 🇰🇿 [哈萨克语技能 (`SKILL.kk.md`)](SKILL.kk.md)
 * 🇨🇳 [简体中文技能 (`SKILL.zh.md`)](SKILL.zh.md)
@@ -71,10 +71,10 @@ flowchart TD
     C -->|"无占位符的完整代码 + 质量门禁"| D["彩蛋：将成功会话自动提炼为 SKILL.md"]
 ```
 
-1. **第 1 步 — 杠杆挖掘：** 倾倒你的全局背景、产品愿景与业务痛点，强制要求 AI 给出 10 个非显然的架构加速、安全加固与体验提升切入点，此时暂不编写代码。
-2. **第 2 步 — 盲区问诊：** AI 化身主任架构师，向你提出 5–7 个你可能忽略的边界场景问题（分布式事务、SSRF 元数据穿透、数据竞争、移动端最小可点击区域）。
-3. **第 3 步 — 手术式执行方案：** AI 给出带代码、验证指令与验收标准的具体 3 步执行方案，零伪代码、零临时占位符。
-4. **彩蛋 — 提炼持久技能：** 任务成功后，一键将当前解决路径沉淀为项目永久生效的 `SKILL.md`。
+1. **第 1 步 - 杠杆挖掘：** 倾倒你的全局背景、产品愿景与业务痛点，强制要求 AI 给出 10 个非显然的架构加速、安全加固与体验提升切入点，此时暂不编写代码。
+2. **第 2 步 - 盲区问诊：** AI 化身主任架构师，向你提出 5–7 个你可能忽略的边界场景问题（分布式事务、SSRF 元数据穿透、数据竞争、移动端最小可点击区域）。
+3. **第 3 步 - 手术式执行方案：** AI 给出带代码、验证指令与验收标准的具体 3 步执行方案，零伪代码、零临时占位符。
+4. **彩蛋 - 提炼持久技能：** 任务成功后，一键将当前解决路径沉淀为项目永久生效的 `SKILL.md`。
 
 ---
 
