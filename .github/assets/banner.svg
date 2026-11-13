@@ -1,0 +1,57 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" rx="24" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#E2E8F0" stroke-width="2"/>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#CBD5E1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)" opacity="0.55"/>
+
+  <!-- Left Text Block -->
+  <rect x="56" y="48" width="230" height="28" rx="14" fill="#ECFDF5" stroke="#A7F3D0"/>
+  <text x="72" y="67" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#047857">LIVE SKILL + KNOWLEDGE API</text>
+
+  <text x="56" y="126" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#0F172A">Vibe &amp; Product</text>
+  <text x="56" y="172" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="40" font-weight="800" fill="#10B981">Engineering Vault</text>
+
+  <text x="56" y="216" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" fill="#475569">2+ years of Telegram Saved Messages distilled into 88 non-linear</text>
+  <text x="56" y="241" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="17" fill="#475569">chapters (987p), auto-updating SKILL.md &amp; interactive Mind-Map.</text>
+
+  <rect x="56" y="274" width="214" height="38" rx="10" fill="#0F172A"/>
+  <text x="76" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#FFFFFF">vibemap.murdasoft.kz →</text>
+
+  <rect x="284" y="274" width="190" height="38" rx="10" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="303" y="298" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" fill="#334155">Claude · Codex · Cursor</text>
+
+  <!-- Right Mind-Map Diagram -->
+  <line x1="835" y1="180" x2="710" y2="96" stroke="#10B981" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="835" y1="180" x2="1040" y2="96" stroke="#38BDF8" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="835" y1="180" x2="1040" y2="264" stroke="#8B5CF6" stroke-width="2.5" stroke-opacity="0.7"/>
+  <line x1="835" y1="180" x2="710" y2="264" stroke="#F59E0B" stroke-width="2.5" stroke-opacity="0.7"/>
+
+  <!-- Center Orb -->
+  <circle cx="835" cy="180" r="56" fill="#FFFFFF" stroke="#10B981" stroke-width="3"/>
+  <text x="835" y="174" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#0F172A">MurdaSoft</text>
+  <text x="835" y="194" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="#059669">88 CHAPTERS</text>
+
+  <!-- Node 1 -->
+  <rect x="615" y="64" width="160" height="54" rx="12" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1.8"/>
+  <text x="695" y="88" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#047857">⚡ SKILL.md</text>
+  <text x="695" y="106" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Auto-sync via curl</text>
+
+  <!-- Node 2 -->
+  <rect x="965" y="64" width="175" height="54" rx="12" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="1.8"/>
+  <text x="1052" y="88" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#0284C7">🔑 Live REST API</text>
+  <text x="1052" y="106" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">/api/v1/vibe-knowledge</text>
+
+  <!-- Node 3 -->
+  <rect x="965" y="238" width="175" height="54" rx="12" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.8"/>
+  <text x="1052" y="262" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#7C3AED">🛡️ DevSecOps</text>
+  <text x="1052" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Docker · Auth · Hooks</text>
+
+  <!-- Node 4 -->
+  <rect x="615" y="238" width="160" height="54" rx="12" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1.8"/>
+  <text x="695" y="262" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#B45309">🎨 Anti-Slop UI</text>
+  <text x="695" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">Tokens · FSD · 44x44</text>
+</svg>

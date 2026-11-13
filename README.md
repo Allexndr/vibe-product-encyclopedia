@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="Vibe & Product Engineering Vault — Live Skill & API" width="100%" />
+</p>
+
 # Vibe & Product Engineering Encyclopedia (Live Skill + API)
 
 > **If this saves you hours of debugging or prompt-wrangling, please drop a ⭐ Star — it helps more builders find this vault!**
