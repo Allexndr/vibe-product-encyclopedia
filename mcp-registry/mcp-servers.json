@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "firecrawl": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "${FIRECRAWL_API_KEY}"
+      }
+    },
+    "qdrant": {
+      "command": "uvx",
+      "args": ["mcp-server-qdrant"],
+      "env": {
+        "QDRANT_URL": "${QDRANT_URL}",
+        "COLLECTION_NAME": "vibe-codebase-memory"
+      }
+    },
+    "e2b": {
+      "command": "npx",
+      "args": ["-y", "@e2b/mcp-server"],
+      "env": {
+        "E2B_API_KEY": "${E2B_API_KEY}"
+      }
+    }
+  }
+}
